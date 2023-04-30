@@ -1,0 +1,82 @@
+body{
+  background-image: url(img.png);
+  background-size: cover;
+}
+
+
+.box{
+  width: 800px;
+  height: 550px;
+  margin: 100px auto 0px auto;
+  border: 2px solid rgb(0, 0, 0);
+  
+  background-color: rgba(255, 241, 241, 0.611);
+  border-radius: 20px;
+}
+
+form{
+  text-align: center;
+  font-family: cursive;
+}
+
+p1{
+    color: blue;
+}
+p2{
+    color:red;
+}
+ 
+
+
+  img {
+    
+    display:block;
+    margin:15px 10px 5px 0px;
+   
+   
+  }
+
+  h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  main {
+    margin:30px 5px 20px 5px ;
+    display: flex;
+    text-align: justify;
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 7px;
+    padding-left: 250px;
+  }
+
+  
+
+  input[type="number,email"],input[type="password"], input[type="submit"]{
+    width:200px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    text-align: center;
+  }
+  input[type="submit"]:hover{
+    background-color: green;
+
+  }
+  input[type="submit"]{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+  }
+   
+  .signup{
+    color: red;
+    cursor: pointer;
+  }
+  .foot:hover{
+    color: blue;
+    cursor: pointer;
+  }
+
+  
